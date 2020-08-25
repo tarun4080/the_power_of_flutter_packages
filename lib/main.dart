@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:thepoweofflutterpackage/flutter_packages/multi_select_flutter.dart';
 import 'package:thepoweofflutterpackage/flutter_packages/package_info.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'The power of Flutter package',
 
-      home: FlutterAppInfo(),
+      home: MultiSelectFlutterDemo(),
     );
   }
 }

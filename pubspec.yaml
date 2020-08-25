@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   package_info: ^0.4.1
+  multi_select_flutter: ^2.1.0
 
 
 
