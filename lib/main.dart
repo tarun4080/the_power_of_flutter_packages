@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:thepoweofflutterpackage/flutter_packages/multi_select_flutter.dart';
-import 'package:thepoweofflutterpackage/flutter_packages/package_info.dart';
+import 'package:thepoweofflutterpackage/flutter_packages/show_case_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'The power of Flutter package',
 
-      home: MultiSelectFlutterDemo(),
+      home: ShowCaseDemo(),
     );
   }
 }
